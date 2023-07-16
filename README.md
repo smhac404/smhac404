@@ -5,9 +5,9 @@
 
 <img align="right" alt="GIF" src="https://github.com/smhac404/smhac404/blob/main/coding-freak.gif?raw=true" width="500" height="320" />
 
-💻 I’m currently working on scalable **Data Science**.
+💻 I’m currently working on CSM technology as Senior Software Engineer(Data science).
 
-🍀 Passionate about **Natural Language Processing** and **Deep Learning**.
+🍀 Passionate about **Genrative AI Devloper**.
 
 ⛰️ Determined to make open-source more accessible, creating technology to elevate people, and building community.
 
@@ -23,7 +23,7 @@
    <img src="https://github-readme-stats-git-master.akanz1.vercel.app/api/top-langs/?username=smhac404&layout=compact&hide_border=true&title_color=142d70" width="350"/>
 </p>
 
-### Languages, Tools and Packages:
+### Languages, Tools, and Packages:
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/-R-276DC3?style=for-the-badge&logo=R)
