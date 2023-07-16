@@ -1,9 +1,9 @@
 <h1>Hi I'm Swastik<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"></h1>
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=developedbysm&label=Profile%20views&color=0e75b6&style=flat" /> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=smhac404&label=Profile%20views&color=0e75b6&style=flat" /> </p>
 
 <p align="center"><img src="https://resources.github.com/assets/img/site/octocat-help.svg" alt="Swastik Mohanty - Data Scientist"/></p>
 
-<img align="right" alt="GIF" src="https://github.com/developedbysm/developedbysm/blob/main/coding-freak.gif?raw=true" width="500" height="320" />
+<img align="right" alt="GIF" src="https://github.com/smhac404/smhac404/blob/main/coding-freak.gif?raw=true" width="500" height="320" />
 
 💻 I’m currently working on scalable **Data Science**.
 
@@ -18,9 +18,9 @@
 
 
 <p float="left">
-   <img src="https://github-readme-streak-stats.herokuapp.com/?user=developedbysm&currStreakNum=2FD3EB&fire=pink&sideLabels=F00" width="450"/>
+   <img src="https://github-readme-streak-stats.herokuapp.com/?user=smhac404&currStreakNum=2FD3EB&fire=pink&sideLabels=F00" width="450"/>
    
-   <img src="https://github-readme-stats-git-master.akanz1.vercel.app/api/top-langs/?username=developedbysm&layout=compact&hide_border=true&title_color=142d70" width="350"/>
+   <img src="https://github-readme-stats-git-master.akanz1.vercel.app/api/top-langs/?username=smhac404&layout=compact&hide_border=true&title_color=142d70" width="350"/>
 </p>
 
 ### Languages, Tools and Packages:
@@ -59,7 +59,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 
 <!--
-**developedbysm/developedbysm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**smhac404/smhac404** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
