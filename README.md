@@ -44,7 +44,7 @@
 ![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
 ![plotly](https://img.shields.io/badge/Plotly-239120?style=for-the-badge&logo=plotly&logoColor=white)
 
-![Oracle]((https://img.shields.io/badge/Oracle-C74634.svg?&style=for-the-badge&logo=oracle&logoColor=white))
+![Oracle](https://img.shields.io/badge/Oracle-C74634.svg?&style=for-the-badge&logo=oracle&logoColor=white)
 
 ![VS Code](https://img.shields.io/badge/VS_Code-0077AC?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
