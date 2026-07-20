@@ -1,82 +1,82 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500">
   <defs>
     <!-- ================================= -->
-    <!-- LIGHT & AIRY BACKGROUND -->
+    <!-- LIGHT BACKGROUND GRADIENT -->
     <!-- ================================= -->
     <linearGradient id="lightBG" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF">
-        <animate attributeName="stop-color" values="#FFFFFF;#F8FAFF;#FFFFFF" dur="14s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#FAFAFF">
+        <animate attributeName="stop-color" values="#FAFAFF;#F0F0FF;#FAFAFF" dur="14s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#F5F3FF">
-        <animate attributeName="stop-color" values="#F5F3FF;#EEF2FF;#F5F3FF" dur="14s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#F0F0FF">
+        <animate attributeName="stop-color" values="#F0F0FF;#EEF2FF;#F0F0FF" dur="14s" repeatCount="indefinite"/>
       </stop>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
 
     <!-- ================================= -->
-    <!-- SOFT GLASS PANEL -->
+    <!-- GLASS PANEL -->
     <!-- ================================= -->
-    <linearGradient id="softGlass" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".92"/>
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".75"/>
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity=".55"/>
+    <linearGradient id="lightGlass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".85"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".70"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity=".50"/>
     </linearGradient>
 
     <!-- ================================= -->
-    <!-- GENTLE TEXT GRADIENT -->
+    <!-- TEXT GRADIENT -->
     <!-- ================================= -->
-    <linearGradient id="gentleText" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#4338CA">
-        <animate attributeName="stop-color" values="#4338CA;#6D28D9;#4338CA" dur="8s" repeatCount="indefinite"/>
+    <linearGradient id="lightText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4F46E5">
+        <animate attributeName="stop-color" values="#4F46E5;#7C3AED;#4F46E5" dur="8s" repeatCount="indefinite"/>
       </stop>
       <stop offset="50%" stop-color="#7C3AED">
         <animate attributeName="stop-color" values="#7C3AED;#6366F1;#7C3AED" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#6366F1">
-        <animate attributeName="stop-color" values="#6366F1;#4338CA;#6366F1" dur="8s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#8B5CF6">
+        <animate attributeName="stop-color" values="#8B5CF6;#4F46E5;#8B5CF6" dur="8s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
     <!-- ================================= -->
-    <!-- SUBTLE GLOW EFFECTS -->
+    <!-- AURORA -->
     <!-- ================================= -->
-    <radialGradient id="softGlow1">
-      <stop offset="0%" stop-color="#818CF8" stop-opacity=".15"/>
+    <radialGradient id="violetGlow">
+      <stop offset="0%" stop-color="#818CF8" stop-opacity=".20"/>
       <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="softGlow2">
-      <stop offset="0%" stop-color="#A78BFA" stop-opacity=".12"/>
+    
+    <radialGradient id="purpleGlow">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity=".15"/>
       <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="softParticle">
-      <stop offset="0%" stop-color="#818CF8"/>
-      <stop offset="50%" stop-color="#A78BFA"/>
-      <stop offset="100%" stop-color="#C7D2FE" stop-opacity="0"/>
-    </radialGradient>
+
+    <filter id="softBlur">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#4F46E5" flood-opacity=".10"/>
+    </filter>
 
     <!-- ================================= -->
-    <!-- FILTERS -->
+    <!-- GLOW FILTER -->
     <!-- ================================= -->
-    <filter id="softBlur">
-      <feGaussianBlur stdDeviation="35"/>
-    </filter>
-    <filter id="gentleGlow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <filter id="softShadow">
-      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#6366F1" flood-opacity=".08"/>
-    </filter>
-    <filter id="textSoftGlow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+
+    <!-- ================================= -->
+    <!-- PARTICLE GRADIENT -->
+    <!-- ================================= -->
+    <radialGradient id="particle">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="40%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#C7D2FE" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
   <!-- ================================= -->
@@ -85,205 +85,227 @@
   <rect width="1600" height="500" fill="url(#lightBG)"/>
 
   <!-- ================================= -->
-  <!-- SUBTLE AURORA LIGHTS -->
+  <!-- AURORA LIGHTS -->
   <!-- ================================= -->
-  <g filter="url(#softBlur)">
-    <ellipse cx="250" cy="130" rx="260" ry="140" fill="url(#softGlow1)">
-      <animateTransform attributeName="transform" type="translate" values="0 0;35 -18;0 0" dur="13s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="1350" cy="120" rx="240" ry="130" fill="url(#softGlow2)">
-      <animateTransform attributeName="transform" type="translate" values="0 0;-30 20;0 0" dur="15s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="800" cy="470" rx="480" ry="70" fill="#818CF8" opacity=".06">
-      <animate attributeName="rx" values="420;560;420" dur="16s" repeatCount="indefinite"/>
-    </ellipse>
-  </g>
+  <ellipse cx="250" cy="120" rx="300" ry="160" fill="url(#violetGlow)" filter="url(#softBlur)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;45 -22;0 0" dur="12s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <ellipse cx="1350" cy="100" rx="280" ry="150" fill="url(#purpleGlow)" filter="url(#softBlur)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-35 22;0 0" dur="14s" repeatCount="indefinite"/>
+  </ellipse>
 
   <!-- ================================= -->
-  <!-- MINIMAL AI NETWORK -->
+  <!-- AI NETWORK CONNECTIONS -->
   <!-- ================================= -->
-  <g stroke="#818CF8" stroke-opacity=".20" stroke-width="1.8" fill="none" filter="url(#gentleGlow)">
-    <path d="M180 150 L390 225 L620 120 L820 205 L1080 130 L1390 225">
-      <animate attributeName="stroke-opacity" values=".12;.40;.12" dur="7s" repeatCount="indefinite"/>
+  <g stroke="#818CF8" stroke-opacity=".25" stroke-width="2" fill="none" filter="url(#glow)">
+    <path d="M180 150 L400 220 L620 120 L820 200 L1080 130 L1400 220">
+      <animate attributeName="stroke-opacity" values=".15;.50;.15" dur="7s" repeatCount="indefinite"/>
     </path>
-    <path d="M390 225 L820 205">
-      <animate attributeName="stroke-opacity" values=".15;.45;.15" dur="8s" repeatCount="indefinite"/>
+    <path d="M400 220 L820 200">
+      <animate attributeName="stroke-opacity" values=".20;.55;.20" dur="8s" repeatCount="indefinite"/>
     </path>
     <path d="M620 120 L1080 130">
-      <animate attributeName="stroke-opacity" values=".12;.38;.12" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".15;.45;.15" dur="9s" repeatCount="indefinite"/>
     </path>
     <path d="M180 150 L620 120">
-      <animate attributeName="stroke-opacity" values=".10;.35;.10" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".12;.40;.12" dur="10s" repeatCount="indefinite"/>
     </path>
-    <path d="M1080 130 L1390 225">
-      <animate attributeName="stroke-opacity" values=".10;.35;.10" dur="11s" repeatCount="indefinite"/>
+    <path d="M1080 130 L1400 220">
+      <animate attributeName="stroke-opacity" values=".12;.40;.12" dur="11s" repeatCount="indefinite"/>
     </path>
   </g>
 
   <!-- ================================= -->
-  <!-- GENTLE DATA SIGNALS -->
+  <!-- MOVING DATA SIGNALS -->
   <!-- ================================= -->
-  <circle r="3.5" fill="#818CF8" filter="url(#gentleGlow)">
-    <animateMotion dur="7s" repeatCount="indefinite" path="M180 150 L390 225 L620 120 L820 205 L1080 130 L1390 225"/>
-    <animate attributeName="opacity" values="0;.9;.9;0" dur="7s" repeatCount="indefinite"/>
+  <circle r="4.5" fill="#818CF8" filter="url(#glow)">
+    <animateMotion dur="7s" repeatCount="indefinite" path="M180 150 L400 220 L620 120 L820 200 L1080 130 L1400 220"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="7s" repeatCount="indefinite"/>
   </circle>
-  <circle r="3" fill="#A78BFA" filter="url(#gentleGlow)">
-    <animateMotion dur="9s" begin="3s" repeatCount="indefinite" path="M390 225 L820 205 L1080 130"/>
-    <animate attributeName="opacity" values="0;.8;.8;0" dur="9s" repeatCount="indefinite"/>
+
+  <circle r="3.5" fill="#A78BFA" filter="url(#glow)">
+    <animateMotion dur="9s" begin="3s" repeatCount="indefinite" path="M400 220 L820 200 L1080 130"/>
+    <animate attributeName="opacity" values="0;.9;.9;0" dur="9s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle r="3" fill="#6366F1" filter="url(#glow)">
+    <animateMotion dur="11s" begin="5s" repeatCount="indefinite" path="M180 150 L620 120 L1080 130"/>
+    <animate attributeName="opacity" values="0;.8;.8;0" dur="11s" repeatCount="indefinite"/>
   </circle>
 
   <!-- ================================= -->
-  <!-- SOFT NETWORK NODES -->
+  <!-- NETWORK NODES -->
   <!-- ================================= -->
-  <g filter="url(#gentleGlow)">
+  <g filter="url(#glow)">
     <circle cx="180" cy="150" r="6" fill="#818CF8">
-      <animate attributeName="r" values="5;8;5" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="5;9;5" dur="5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="390" cy="225" r="7" fill="#6366F1">
-      <animate attributeName="r" values="6;9;6" dur="6s" repeatCount="indefinite"/>
+    <circle cx="400" cy="220" r="7" fill="#6366F1">
+      <animate attributeName="r" values="6;10;6" dur="6s" repeatCount="indefinite"/>
     </circle>
     <circle cx="620" cy="120" r="6" fill="#818CF8">
-      <animate attributeName="r" values="5;8;5" dur="5.5s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="5;9;5" dur="5.5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="820" cy="205" r="7" fill="#A78BFA">
-      <animate attributeName="r" values="6;9;6" dur="7s" repeatCount="indefinite"/>
+    <circle cx="820" cy="200" r="7" fill="#A78BFA">
+      <animate attributeName="r" values="6;10;6" dur="7s" repeatCount="indefinite"/>
     </circle>
     <circle cx="1080" cy="130" r="6" fill="#818CF8">
-      <animate attributeName="r" values="5;8;5" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="5;9;5" dur="6s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="1390" cy="225" r="7" fill="#6366F1">
-      <animate attributeName="r" values="6;9;6" dur="5s" repeatCount="indefinite"/>
+    <circle cx="1400" cy="220" r="7" fill="#6366F1">
+      <animate attributeName="r" values="6;10;6" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Sub-nodes -->
+    <circle cx="280" cy="185" r="3.5" fill="#A78BFA" opacity=".5">
+      <animate attributeName="opacity" values=".3;.8;.3" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="710" cy="160" r="3.5" fill="#A78BFA" opacity=".5">
+      <animate attributeName="opacity" values=".3;.8;.3" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="950" cy="165" r="3.5" fill="#A78BFA" opacity=".5">
+      <animate attributeName="opacity" values=".3;.8;.3" dur="5s" repeatCount="indefinite"/>
     </circle>
   </g>
 
   <!-- ================================= -->
-  <!-- LIGHT PARTICLES -->
+  <!-- GLOWING PARTICLES -->
   <!-- ================================= -->
   <g>
-    <circle cx="130" cy="85" r="5" fill="url(#softParticle)">
-      <animateTransform attributeName="transform" type="translate" values="0 0;20 -25;0 0" dur="11s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".4;1;.4" dur="4s" repeatCount="indefinite"/>
+    <circle cx="120" cy="90" r="5" fill="url(#particle)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;25 -28;0 0" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".4;1;.4" dur="5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="330" cy="60" r="4" fill="url(#softParticle)">
-      <animateTransform attributeName="transform" type="translate" values="0 0;-20 30;0 0" dur="13s" repeatCount="indefinite"/>
+    <circle cx="300" cy="70" r="4" fill="url(#particle)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-22 32;0 0" dur="12s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="550" cy="55" r="5" fill="url(#softParticle)">
-      <animateTransform attributeName="transform" type="translate" values="0 0;25 -20;0 0" dur="12s" repeatCount="indefinite"/>
+    <circle cx="520" cy="60" r="5" fill="url(#particle)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;28 -22;0 0" dur="11s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="900" cy="60" r="4" fill="url(#softParticle)">
-      <animateTransform attributeName="transform" type="translate" values="0 0;-25 22;0 0" dur="14s" repeatCount="indefinite"/>
+    <circle cx="900" cy="70" r="4" fill="url(#particle)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-28 22;0 0" dur="13s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="1220" cy="60" r="5" fill="url(#softParticle)">
-      <animateTransform attributeName="transform" type="translate" values="0 0;30 -18;0 0" dur="13s" repeatCount="indefinite"/>
+    <circle cx="1250" cy="70" r="5" fill="url(#particle)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;32 -18;0 0" dur="12s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="1480" cy="110" r="4" fill="url(#softParticle)">
-      <animateTransform attributeName="transform" type="translate" values="0 0;-25 25;0 0" dur="11s" repeatCount="indefinite"/>
+    <circle cx="1500" cy="120" r="4" fill="url(#particle)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-28 28;0 0" dur="10s" repeatCount="indefinite"/>
     </circle>
   </g>
 
   <!-- ================================= -->
-  <!-- SOFT GLASS CARD -->
+  <!-- GLASS CARD -->
   <!-- ================================= -->
-  <rect x="310" y="80" width="980" height="260" rx="36" fill="url(#softGlass)" stroke="#FFFFFF" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="310" y="80" width="980" height="260" rx="38" fill="url(#lightGlass)" stroke="#FFFFFF" stroke-width="2.5" filter="url(#shadow)"/>
 
   <!-- Glass highlight -->
-  <path d="M350 105 H1250" stroke="#FFFFFF" stroke-opacity=".8" stroke-width="1.5"/>
-  <path d="M350 115 H1250" stroke="#FFFFFF" stroke-opacity=".3" stroke-width=".5"/>
+  <path d="M350 108 H1250" stroke="#FFFFFF" stroke-opacity=".7" stroke-width="1.5"/>
+  <path d="M350 118 H1250" stroke="#FFFFFF" stroke-opacity=".25" stroke-width=".5"/>
 
   <!-- Corner accent -->
-  <circle cx="1160" cy="115" r="90" fill="#818CF8" opacity=".05">
+  <circle cx="1180" cy="115" r="90" fill="#818CF8" opacity=".06">
     <animate attributeName="r" values="75;100;75" dur="9s" repeatCount="indefinite"/>
   </circle>
 
   <!-- ================================= -->
   <!-- FLOATING SYMBOLS -->
   <!-- ================================= -->
-  <g font-family="JetBrains Mono,monospace" font-size="26" font-weight="600" fill="#818CF8" opacity=".12">
+  <g font-family="JetBrains Mono,monospace" font-size="28" font-weight="600" fill="#818CF8" opacity=".14">
     <text x="140" y="290">
       &lt;/&gt;
-      <animateTransform attributeName="transform" type="translate" values="0 0;0 -20;0 0" dur="10s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -22;0 0" dur="10s" repeatCount="indefinite"/>
     </text>
-    <text x="300" y="370">
+    <text x="300" y="360">
       {}
       <animateTransform attributeName="transform" type="translate" values="0 0;18 -18;0 0" dur="12s" repeatCount="indefinite"/>
     </text>
-    <text x="520" y="105">
+    <text x="520" y="115">
       AI
       <animateTransform attributeName="transform" type="translate" values="0 0;-18 22;0 0" dur="11s" repeatCount="indefinite"/>
     </text>
-    <text x="1110" y="85">
+    <text x="1120" y="95">
       LLM
       <animateTransform attributeName="transform" type="translate" values="0 0;22 18;0 0" dur="13s" repeatCount="indefinite"/>
     </text>
-    <text x="1340" y="340">
+    <text x="1350" y="330">
       RAG
-      <animateTransform attributeName="transform" type="translate" values="0 0;-22 -18;0 0" dur="11s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;-22 -18;0 0" dur="10s" repeatCount="indefinite"/>
     </text>
     <text x="1060" y="380">FastAPI</text>
-    <text x="400" y="430">Python</text>
+    <text x="420" y="430">Python</text>
+    <text x="1450" y="150">⚡</text>
   </g>
 
   <!-- ================================= -->
   <!-- MAIN TITLE -->
   <!-- ================================= -->
-  <text x="800" y="175" text-anchor="middle" font-family="SF Pro Display,Segoe UI,Arial" font-size="66" font-weight="700" fill="url(#gentleText)" filter="url(#textSoftGlow)" letter-spacing="-0.5">
+  <text x="800" y="175" text-anchor="middle" font-family="SF Pro Display,Segoe UI,Arial" font-size="66" font-weight="700" fill="url(#lightText)" letter-spacing="-0.5">
     Swastik Mohanty
   </text>
 
   <!-- ================================= -->
   <!-- ROLE -->
   <!-- ================================= -->
-  <text x="800" y="220" text-anchor="middle" font-family="SF Pro Display,Segoe UI" font-size="25" letter-spacing="3" fill="#6366F1" opacity=".75">
+  <text x="800" y="220" text-anchor="middle" font-family="SF Pro Display,Segoe UI" font-size="26" letter-spacing="3" fill="#6366F1" opacity=".8">
     ENTERPRISE AI ENGINEER
   </text>
 
   <!-- ================================= -->
   <!-- DIVIDER -->
   <!-- ================================= -->
-  <line x1="530" y1="242" x2="1070" y2="242" stroke="#818CF8" stroke-opacity=".18" stroke-width="1.5">
-    <animate attributeName="stroke-opacity" values=".10;.28;.10" dur="5s" repeatCount="indefinite"/>
+  <line x1="530" y1="245" x2="1070" y2="245" stroke="#818CF8" stroke-opacity=".20" stroke-width="1.5">
+    <animate attributeName="stroke-opacity" values=".12;.32;.12" dur="5s" repeatCount="indefinite"/>
   </line>
-  <circle cx="800" cy="242" r="2.5" fill="#818CF8" opacity=".35">
-    <animate attributeName="r" values="2;5;2" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values=".2;.7;.2" dur="4s" repeatCount="indefinite"/>
+  <circle cx="800" cy="245" r="3" fill="#818CF8" opacity=".4">
+    <animate attributeName="r" values="2;6;2" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".2;.8;.2" dur="4s" repeatCount="indefinite"/>
   </circle>
 
   <!-- ================================= -->
   <!-- DESCRIPTION -->
   <!-- ================================= -->
-  <text x="800" y="285" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="21" fill="#4338CA" opacity=".8">
+  <text x="800" y="288" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="22" fill="#4F46E5" opacity=".85">
     Building Production-Ready LLM Systems
   </text>
 
   <!-- ================================= -->
   <!-- TECH TAGS -->
   <!-- ================================= -->
-  <text x="800" y="320" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="18" fill="#818CF8" opacity=".7">
+  <text x="800" y="325" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="19" fill="#818CF8" opacity=".75">
     RAG • Multi-Agent AI • NLP • Python • FastAPI • Azure
   </text>
 
   <!-- ================================= -->
-  <!-- GENTLE WAVES -->
+  <!-- BOTTOM AURORA -->
   <!-- ================================= -->
-  <path fill="#818CF8" fill-opacity=".05">
-    <animate attributeName="d" dur="18s" repeatCount="indefinite"
+  <ellipse cx="800" cy="450" rx="520" ry="85" fill="#818CF8" opacity=".10" filter="url(#softBlur)">
+    <animate attributeName="rx" values="460;620;460" dur="13s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- ================================= -->
+  <!-- ANIMATED WAVES -->
+  <!-- ================================= -->
+  <path fill="#818CF8" fill-opacity=".07">
+    <animate attributeName="d" dur="17s" repeatCount="indefinite"
       values="
-        M0 425 C300 360 600 465 900 415 C1200 360 1450 455 1600 405 L1600 500 L0 500Z;
-        M0 405 C300 465 600 365 900 425 C1200 475 1450 375 1600 425 L1600 500 L0 500Z;
-        M0 425 C300 360 600 465 900 415 C1200 360 1450 455 1600 405 L1600 500 L0 500Z
+        M0 420 C300 350 600 470 900 410 C1200 350 1450 460 1600 400 L1600 500 L0 500Z;
+        M0 400 C300 470 600 360 900 430 C1200 480 1450 370 1600 430 L1600 500 L0 500Z;
+        M0 420 C300 350 600 470 900 410 C1200 350 1450 460 1600 400 L1600 500 L0 500Z
       "/>
   </path>
-  <path fill="#A78BFA" fill-opacity=".04">
-    <animate attributeName="d" dur="22s" repeatCount="indefinite"
+
+  <path fill="#A78BFA" fill-opacity=".05">
+    <animate attributeName="d" dur="21s" repeatCount="indefinite"
       values="
-        M0 455 C350 400 700 495 1000 435 C1300 390 1500 465 1600 445 L1600 500 L0 500Z;
-        M0 435 C350 495 700 395 1000 445 C1300 495 1500 415 1600 445 L1600 500 L0 500Z;
-        M0 455 C350 400 700 495 1000 435 C1300 390 1500 465 1600 445 L1600 500 L0 500Z
+        M0 450 C350 390 700 500 1000 430 C1300 380 1500 470 1600 440 L1600 500 L0 500Z;
+        M0 430 C350 500 700 390 1000 450 C1300 500 1500 410 1600 450 L1600 500 L0 500Z;
+        M0 450 C350 390 700 500 1000 430 C1300 380 1500 470 1600 440 L1600 500 L0 500Z
       "/>
   </path>
 
   <!-- ================================= -->
-  <!-- SUBTLE EDGE -->
+  <!-- EDGE ACCENT -->
   <!-- ================================= -->
   <rect x="0" y="0" width="1600" height="500" fill="none" stroke="#818CF8" stroke-opacity=".04"/>
 </svg>
