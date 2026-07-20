@@ -1107,7 +1107,7 @@ result="blur"/>
 
 
 <!-- ===================================== -->
-<!-- MAIN TITLE -->
+<!-- PREMIUM FINAL TITLE -->
 <!-- ===================================== -->
 
 
@@ -1119,23 +1119,27 @@ y="170"
 
 text-anchor="middle"
 
-font-family="SF Pro Display,Segoe UI,Arial"
+font-family="Arial, Helvetica, sans-serif"
 
-font-size="64"
+font-size="68"
 
-font-weight="700"
+font-weight="900"
+
+letter-spacing="1"
 
 fill="url(#titleGradient)"
 
-filter="url(#textGlow)">
+stroke="#FFFFFF"
 
+stroke-opacity=".18"
+
+stroke-width="1"
+
+filter="url(#textGlow)">
 
 Swastik Mohanty
 
-
 </text>
-
-
 
 
 
@@ -1148,48 +1152,25 @@ Swastik Mohanty
 
 x="800"
 
-y="215"
+y="220"
 
 text-anchor="middle"
 
-font-family="SF Pro Display,Segoe UI"
+font-family="Arial, Helvetica, sans-serif"
 
-font-size="25"
+font-size="26"
 
-letter-spacing="2"
+font-weight="700"
 
-fill="#E9D5FF">
+letter-spacing="3"
 
+fill="#FFFFFF"
+
+opacity=".95">
 
 ENTERPRISE AI ENGINEER
 
-
 </text>
-
-
-
-
-
-<!-- ===================================== -->
-<!-- DIVIDER -->
-<!-- ===================================== -->
-
-
-<line
-
-x1="540"
-
-y1="240"
-
-x2="1060"
-
-y2="240"
-
-stroke="#FFFFFF"
-
-stroke-opacity=".18"/>
-
-
 
 
 
@@ -1206,18 +1187,19 @@ y="280"
 
 text-anchor="middle"
 
-font-family="JetBrains Mono,monospace"
+font-family="monospace"
 
-font-size="21"
+font-size="22"
 
-fill="#FFFFFF">
+font-weight="600"
 
+fill="#FFFFFF"
+
+opacity=".95">
 
 Building Production-Ready LLM Systems
 
-
 </text>
-
 
 
 
@@ -1229,18 +1211,17 @@ y="320"
 
 text-anchor="middle"
 
-font-family="JetBrains Mono,monospace"
+font-family="monospace"
 
 font-size="18"
 
-fill="#DDD6FE">
+font-weight="600"
 
+fill="#DDD6FE">
 
 RAG • Multi-Agent AI • NLP • Python • FastAPI • Azure
 
-
 </text>
-
 
 
 
