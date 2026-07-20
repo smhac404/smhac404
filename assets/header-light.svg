@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg
+xmlns="http://www.w3.org/2000/svg"
+width="1600"
+height="500"
+viewBox="0 0 1600 500">
+
+
+<defs>
+
+
+<!-- ================================= -->
+<!-- LIGHT BACKGROUND GRADIENT -->
+<!-- ================================= -->
+
+
+<linearGradient
+id="lightBG"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
+
+
+<stop offset="0%"
+stop-color="#FFFFFF">
+
+
+<animate
+
+attributeName="stop-color"
+
+values="
+#FFFFFF;
+#EEF2FF;
+#FFFFFF"
+
+dur="14s"
+
+repeatCount="indefinite"/>
+
+
+</stop>
+
+
+
+<stop offset="50%"
+stop-color="#EEF2FF">
+
+
+<animate
+
+attributeName="stop-color"
+
+values="
+#EEF2FF;
+#EDE9FE;
+#EEF2FF"
+
+dur="14s"
+
+repeatCount="indefinite"/>
+
+
+</stop>
+
+
+
+<stop offset="100%"
+stop-color="#F5F3FF"/>
+
+
+</linearGradient>
+
+
+
+
+
+<!-- ================================= -->
+<!-- GLASS PANEL -->
+<!-- ================================= -->
+
+
+<linearGradient
+id="lightGlass"
+
+x1="0%"
+y1="0%"
+
+x2="100%"
+
+y2="100%">
+
+
+<stop
+
+offset="0%"
+
+stop-color="#FFFFFF"
+
+stop-opacity=".75"/>
+
+
+<stop
+
+offset="100%"
+
+stop-color="#FFFFFF"
+
+stop-opacity=".45"/>
+
+
+</linearGradient>
+
+
+
+
+
+<!-- ================================= -->
+<!-- TEXT GRADIENT -->
+<!-- ================================= -->
+
+
+<linearGradient
+
+id="lightText"
+
+x1="0%"
+
+y1="0%"
+
+x2="100%"
+
+y2="0%">
+
+
+<stop
+
+offset="0%"
+
+stop-color="#312E81"/>
+
+
+
+<stop
+
+offset="50%"
+
+stop-color="#6D28D9"/>
+
+
+
+<stop
+
+offset="100%"
+
+stop-color="#8B5CF6"/>
+
+
+</linearGradient>
+
+
+
+
+
+<!-- ================================= -->
+<!-- AURORA -->
+<!-- ================================= -->
+
+
+<radialGradient id="violetGlow">
+
+
+<stop
+
+offset="0%"
+
+stop-color="#8B5CF6"
+
+stop-opacity=".25"/>
+
+
+<stop
+
+offset="100%"
+
+stop-color="#8B5CF6"
+
+stop-opacity="0"/>
+
+
+</radialGradient>
+
+
+
+<filter id="softBlur">
+
+
+<feGaussianBlur
+
+stdDeviation="35"/>
+
+
+</filter>
+
+
+
+
+
+<filter id="shadow">
+
+
+<feDropShadow
+
+dx="0"
+
+dy="18"
+
+stdDeviation="25"
+
+flood-color="#312E81"
+
+flood-opacity=".15"/>
+
+
+</filter>
+
+
+</defs>
+
+
+
+
+
+<!-- ================================= -->
+<!-- BACKGROUND -->
+<!-- ================================= -->
+
+
+<rect
+
+width="1600"
+
+height="500"
+
+fill="url(#lightBG)"/>
+
+
+
+
+
+<!-- ================================= -->
+<!-- AURORA LIGHTS -->
+<!-- ================================= -->
+
+
+<ellipse
+
+cx="250"
+
+cy="120"
+
+rx="280"
+
+ry="150"
+
+fill="url(#violetGlow)"
+
+filter="url(#softBlur)">
+
+
+<animateTransform
+
+attributeName="transform"
+
+type="translate"
+
+values="
+0 0;
+40 -20;
+0 0"
+
+dur="12s"
+
+repeatCount="indefinite"/>
+
+
+</ellipse>
+
+
+
+<ellipse
+
+cx="1350"
+
+cy="100"
+
+rx="260"
+
+ry="140"
+
+fill="url(#violetGlow)"
+
+filter="url(#softBlur)">
+
+
+<animateTransform
+
+attributeName="transform"
+
+type="translate"
+
+values="
+0 0;
+-30 20;
+0 0"
+
+dur="14s"
+
+repeatCount="indefinite"/>
+
+
+</ellipse>
+
+
+
+
+
+<!-- ================================= -->
+<!-- LIGHT AI NETWORK -->
+<!-- ================================= -->
+
+
+<g
+
+stroke="#6366F1"
+
+stroke-opacity=".25"
+
+stroke-width="2"
+
+fill="none">
+
+
+<path
+
+d="
+M180 150
+L400 220
+L620 120
+L820 200
+L1080 130
+L1400 220">
+
+
+<animate
+
+attributeName="stroke-opacity"
+
+values="
+.15;
+.45;
+.15"
+
+dur="7s"
+
+repeatCount="indefinite"/>
+
+
+</path>
+
+
+
+</g>
+
+
+
+
+
+<!-- Nodes -->
+
+<g>
+
+
+<circle
+
+cx="400"
+
+cy="220"
+
+r="7"
+
+fill="#6366F1">
+
+
+<animate
+
+attributeName="r"
+
+values="6;9;6"
+
+dur="5s"
+
+repeatCount="indefinite"/>
+
+
+</circle>
+
+
+
+<circle
+
+cx="820"
+
+cy="200"
+
+r="7"
+
+fill="#8B5CF6">
+
+
+<animate
+
+attributeName="r"
+
+values="6;9;6"
+
+dur="6s"
+
+repeatCount="indefinite"/>
+
+
+</circle>
+
+
+
+<circle
+
+cx="1080"
+
+cy="130"
+
+r="6"
+
+fill="#4F46E5"/>
+
+
+</g>
+
+
+
+
+
+<!-- ================================= -->
+<!-- GLASS CARD -->
+<!-- ================================= -->
+
+
+<rect
+
+x="320"
+
+y="85"
+
+width="960"
+
+height="250"
+
+rx="34"
+
+fill="url(#lightGlass)"
+
+stroke="#FFFFFF"
+
+stroke-width="2"
+
+filter="url(#shadow)"/>
+
+
+
+
+
+<!-- ================================= -->
+<!-- FLOATING SYMBOLS -->
+<!-- ================================= -->
+
+
+<g
+
+font-family="JetBrains Mono"
+
+font-size="26"
+
+font-weight="600"
+
+fill="#4F46E5"
+
+opacity=".18">
+
+
+<text x="140" y="280">
+
+&lt;/&gt;
+
+<animateTransform
+
+attributeName="transform"
+
+type="translate"
+
+values="0 0;0 -20;0 0"
+
+dur="10s"
+
+repeatCount="indefinite"/>
+
+</text>
+
+
+<text x="300" y="350">
+
+{}
+
+</text>
+
+
+
+<text x="520" y="120">
+
+AI
+
+</text>
+
+
+
+<text x="1120" y="100">
+
+LLM
+
+</text>
+
+
+
+<text x="1350" y="320">
+
+RAG
+
+</text>
+
+
+</g>
+
+
+
+
+
+<!-- ================================= -->
+<!-- TITLE -->
+<!-- ================================= -->
+
+
+<text
+
+x="800"
+
+y="170"
+
+text-anchor="middle"
+
+font-family="SF Pro Display,Segoe UI"
+
+font-size="64"
+
+font-weight="700"
+
+fill="url(#lightText)">
+
+
+Swastik Mohanty
+
+
+</text>
+
+
+
+
+<text
+
+x="800"
+
+y="215"
+
+text-anchor="middle"
+
+font-family="Segoe UI"
+
+font-size="25"
+
+letter-spacing="2"
+
+fill="#4338CA">
+
+
+ENTERPRISE AI ENGINEER
+
+
+</text>
+
+
+
+
+<line
+
+x1="540"
+
+y1="240"
+
+x2="1060"
+
+y2="240"
+
+stroke="#6366F1"
+
+stroke-opacity=".2"/>
+
+
+
+
+<text
+
+x="800"
+
+y="280"
+
+text-anchor="middle"
+
+font-family="JetBrains Mono"
+
+font-size="21"
+
+fill="#312E81">
+
+
+Building Production-Ready LLM Systems
+
+
+</text>
+
+
+
+<text
+
+x="800"
+
+y="320"
+
+text-anchor="middle"
+
+font-family="JetBrains Mono"
+
+font-size="18"
+
+fill="#6D28D9">
+
+
+RAG • Multi-Agent AI • NLP • Python • FastAPI • Azure
+
+
+</text>
+
+
+
+
+
+<!-- ================================= -->
+<!-- LIGHT WAVES -->
+<!-- ================================= -->
+
+
+<path
+
+fill="#6366F1"
+
+fill-opacity=".10">
+
+
+<animate
+
+attributeName="d"
+
+dur="16s"
+
+repeatCount="indefinite"
+
+values="
+
+M0 420
+
+C300 350 600 470 900 410
+
+C1200 350 1450 460 1600 400
+
+L1600 500 L0 500Z;
+
+
+M0 400
+
+C300 470 600 360 900 430
+
+C1200 480 1450 370 1600 430
+
+L1600 500 L0 500Z;
+
+
+M0 420
+
+C300 350 600 470 900 410
+
+C1200 350 1450 460 1600 400
+
+L1600 500 L0 500Z
+
+"/>
+
+
+</path>
+
+
+
+
+<path
+
+fill="#8B5CF6"
+
+fill-opacity=".08">
+
+
+<animate
+
+attributeName="d"
+
+dur="20s"
+
+repeatCount="indefinite"
+
+values="
+
+M0 450
+
+C350 390 700 500 1000 430
+
+C1300 380 1500 470 1600 440
+
+L1600 500 L0 500Z;
+
+
+M0 430
+
+C350 500 700 390 1000 450
+
+C1300 500 1500 410 1600 450
+
+L1600 500 L0 500Z;
+
+
+M0 450
+
+C350 390 700 500 1000 430
+
+C1300 380 1500 470 1600 440
+
+L1600 500 L0 500Z
+
+"/>
+
+</path>
+
+
+
+</svg>
