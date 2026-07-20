@@ -1,47 +1,147 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 1600 180">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="180" viewBox="0 0 1600 180">
+  <defs>
+    <!-- ================================= -->
+    <!-- LIGHT FOOTER BACKGROUND -->
+    <!-- ================================= -->
+    <linearGradient id="footerBG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF">
+        <animate attributeName="stop-color" values="#FFFFFF;#F8FAFF;#FFFFFF" dur="14s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#F5F3FF">
+        <animate attributeName="stop-color" values="#F5F3FF;#EEF2FF;#F5F3FF" dur="14s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
 
-<defs>
+    <!-- ================================= -->
+    <!-- TOP ACCENT GRADIENT -->
+    <!-- ================================= -->
+    <linearGradient id="accentBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="50%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="12s" repeatCount="indefinite"/>
+    </linearGradient>
 
-<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- ================================= -->
+    <!-- GLOW FILTER -->
+    <!-- ================================= -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
-<stop offset="0%" stop-color="#4F46E5"/>
+    <!-- ================================= -->
+    <!-- SOFT SHADOW -->
+    <!-- ================================= -->
+    <filter id="footerShadow">
+      <feDropShadow dx="0" dy="-4" stdDeviation="10" flood-color="#818CF8" flood-opacity=".06"/>
+    </filter>
+  </defs>
 
-<stop offset="50%" stop-color="#7C3AED"/>
+  <!-- ================================= -->
+  <!-- BACKGROUND -->
+  <!-- ================================= -->
+  <rect width="1600" height="180" fill="url(#footerBG)" filter="url(#footerShadow)"/>
 
-<stop offset="100%" stop-color="#A855F7"/>
+  <!-- ================================= -->
+  <!-- TOP ACCENT BAR -->
+  <!-- ================================= -->
+  <rect width="1600" height="3" fill="url(#accentBar)"/>
 
-</linearGradient>
+  <!-- ================================= -->
+  <!-- SUBTLE AURORA -->
+  <!-- ================================= -->
+  <ellipse cx="300" cy="180" rx="350" ry="60" fill="#818CF8" opacity=".05">
+    <animate attributeName="rx" values="300;420;300" dur="12s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="1300" cy="180" rx="300" ry="55" fill="#A78BFA" opacity=".04">
+    <animate attributeName="rx" values="280;400;280" dur="14s" repeatCount="indefinite"/>
+  </ellipse>
 
-</defs>
+  <!-- ================================= -->
+  <!-- FLOATING PARTICLES -->
+  <!-- ================================= -->
+  <g fill="#818CF8" filter="url(#glow)">
+    <circle cx="200" cy="90" r="2.5">
+      <animate attributeName="cy" values="90;75;90" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".3;.8;.3" dur="4s" repeatCount="indefinite"/>
+    </circle>
 
-<rect width="1600" height="180" fill="#FFFFFF"/>
+    <circle cx="450" cy="60" r="2">
+      <animate attributeName="cy" values="60;80;60" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.7;.2" dur="5s" repeatCount="indefinite"/>
+    </circle>
 
-<rect width="1600" height="8" fill="url(#bg)"/>
+    <circle cx="750" cy="110" r="2.5">
+      <animate attributeName="cy" values="110;85;110" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".3;.8;.3" dur="6s" repeatCount="indefinite"/>
+    </circle>
 
-<text
-x="800"
-y="95"
-fill="#111827"
-font-family="JetBrains Mono, monospace"
-font-size="24"
-font-weight="600"
-text-anchor="middle">
+    <circle cx="1050" cy="70" r="2">
+      <animate attributeName="cy" values="70;95;70" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.7;.2" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
 
-Thanks for visiting my profile
+    <circle cx="1300" cy="95" r="2.5">
+      <animate attributeName="cy" values="95;75;95" dur="5.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".3;.8;.3" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
 
-</text>
+    <circle cx="1480" cy="65" r="2">
+      <animate attributeName="cy" values="65;85;65" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;.7;.2" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 
-<text
-x="800"
-y="130"
-fill="#4F46E5"
-font-family="JetBrains Mono, monospace"
-font-size="15"
-text-anchor="middle">
+  <!-- ================================= -->
+  <!-- MAIN MESSAGE -->
+  <!-- ================================= -->
+  <text x="800" y="88" text-anchor="middle" font-family="SF Pro Display,Segoe UI,Arial" font-size="26" font-weight="600" fill="url(#textGradient)" filter="url(#glow)">
+    Thanks for visiting my profile
+    <animate attributeName="opacity" values=".75;1;.75" dur="3s" repeatCount="indefinite"/>
+  </text>
 
-Generative AI • LLM • RAG • Agentic AI
+  <!-- ================================= -->
+  <!-- TEXT GRADIENT -->
+  <!-- ================================= -->
+  <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#4F46E5"/>
+    <stop offset="50%" stop-color="#7C3AED"/>
+    <stop offset="100%" stop-color="#6366F1"/>
+  </linearGradient>
 
-</text>
+  <!-- ================================= -->
+  <!-- DIVIDER -->
+  <!-- ================================= -->
+  <line x1="580" y1="108" x2="1020" y2="108" stroke="#818CF8" stroke-opacity=".12" stroke-width="1.5">
+    <animate attributeName="stroke-opacity" values=".08;.22;.08" dur="4s" repeatCount="indefinite"/>
+  </line>
 
+  <!-- ================================= -->
+  <!-- TECH TAGS -->
+  <!-- ================================= -->
+  <text x="800" y="130" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="16" fill="#818CF8" opacity=".7" letter-spacing="1.5">
+    Generative AI • LLM • RAG • Agentic AI
+  </text>
+
+  <!-- ================================= -->
+  <!-- BOTTOM DECORATIVE LINE -->
+  <!-- ================================= -->
+  <path d="M600 155 Q800 148 1000 155" stroke="#818CF8" stroke-opacity=".06" stroke-width="1.5" fill="none">
+    <animate attributeName="d" values="M600 155 Q800 148 1000 155;M600 150 Q800 160 1000 150;M600 155 Q800 148 1000 155" dur="8s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- ================================= -->
+  <!-- CORNER DECORATIONS -->
+  <!-- ================================= -->
+  <circle cx="30" cy="150" r="18" fill="#818CF8" opacity=".03">
+    <animate attributeName="r" values="16;22;16" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1570" cy="150" r="18" fill="#A78BFA" opacity=".03">
+    <animate attributeName="r" values="16;22;16" dur="7s" repeatCount="indefinite"/>
+  </circle>
 </svg>
