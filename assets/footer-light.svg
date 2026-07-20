@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1600 180">
+
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+
+<stop offset="0%" stop-color="#4F46E5"/>
+
+<stop offset="50%" stop-color="#7C3AED"/>
+
+<stop offset="100%" stop-color="#A855F7"/>
+
+</linearGradient>
+
+</defs>
+
+<rect width="1600" height="180" fill="#FFFFFF"/>
+
+<rect width="1600" height="8" fill="url(#bg)"/>
+
+<text
+x="800"
+y="95"
+fill="#111827"
+font-family="JetBrains Mono, monospace"
+font-size="24"
+font-weight="600"
+text-anchor="middle">
+
+Thanks for visiting my profile
+
+</text>
+
+<text
+x="800"
+y="130"
+fill="#4F46E5"
+font-family="JetBrains Mono, monospace"
+font-size="15"
+text-anchor="middle">
+
+Generative AI • LLM • RAG • Agentic AI
+
+</text>
+
+</svg>
