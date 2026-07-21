@@ -1,71 +1,144 @@
-<h1>Hi I'm Swastik<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"></h1>
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=smhac404&label=Profile%20views&color=0e75b6&style=flat" /> </p>
+<div align="center">
 
-<p align="center"><img src="https://resources.github.com/assets/img/site/octocat-help.svg" alt="Swastik Mohanty - Data Scientist"/></p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
+  <img width="100%" src="./assets/header-light.svg">
+</picture>
 
-<img align="right" alt="GIF" src="https://github.com/smhac404/smhac404/blob/main/coding-freak.gif?raw=true" width="500" height="320" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=650&lines=Generative+AI+Engineer;Building+Production+LLM+Systems;RAG+%7C+Agentic+AI+%7C+NLP;Python+%7C+FastAPI+%7C+Azure"/>
 
-💻 I’m currently working on CSM technology as Senior Software Engineer(Data science).
-
-🍀 Passionate about **Genrative AI Devloper**.
-
-⛰️ Determined to make open-source more accessible, creating technology to elevate people, and building community.
-
-📬 How to reach me: 
-
-[![Linkedin Badge](https://img.shields.io/badge/-swastikmohanty-0e76a8?style=flat&labelColor=0e76a8&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/swastik-mohanty/) 
-[![Mail Badge](https://img.shields.io/badge/-swastik845-c0392b?style=flat&labelColor=c0392b&logo=gmail&logoColor=white)](mailto:swastik845@gmail.com) 
-
-
-<p float="left">
-   <img src="https://github-readme-streak-stats.herokuapp.com/?user=smhac404&currStreakNum=2FD3EB&fire=pink&sideLabels=F00" width="450"/>
-   
-   <img src="https://github-readme-stats-git-master.akanz1.vercel.app/api/top-langs/?username=smhac404&layout=compact&hide_border=true&title_color=142d70" width="350"/>
+<p>
+  <img src="https://komarev.com/ghpvc/?username=smhac404&label=Profile%20Views&color=6366F1&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/followers-42-blue?style=for-the-badge&logo=github&color=6366F1"/>
+  <img src="https://img.shields.io/badge/⭐-Star_My_Repos-FFD700?style=for-the-badge&logo=github&color=FFD700"/>
 </p>
 
-### Languages, Tools, and Packages:
+</div>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/-R-276DC3?style=for-the-badge&logo=R)
-![Html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![Css3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+## 👨‍💻 About Me
 
-![Scikit-Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=Keras&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
-![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
-![plotly](https://img.shields.io/badge/Plotly-239120?style=for-the-badge&logo=plotly&logoColor=white)
+<p align="center">
 
-![Oracle](https://img.shields.io/badge/Oracle-C74634.svg?&style=for-the-badge&logo=oracle&logoColor=white)
+🚀 <b>Generative AI Engineer</b> specializing in building scalable LLM-powered applications.
 
-![VS Code](https://img.shields.io/badge/VS_Code-0077AC?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
-![Google Colob](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)
-![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=Anaconda&logoColor=white)
+Experienced in <b>Retrieval-Augmented Generation (RAG)</b>,
+<b>Agentic AI</b>, <b>LLM orchestration</b>, and <b>NLP systems</b>.
 
-![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
-![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+🔭 Building advanced RAG pipelines and multi-agent architectures<br>
+🌱 Exploring LLM optimization, evaluation, and deployment strategies<br>
+💬 Ask me about LLMs, Vector Databases, RAG, Prompt Engineering<br>
+⚡ Turning business problems into intelligent AI solutions
 
-<!--
-**smhac404/smhac404** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+</p>
 
-Here are some ideas to get you started:
+<table>
+<tr>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<td width="50%" valign="top">
+
+<h2 align="center">🛠️ Tech Stack</h2>
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg" height="45"/>
+</p>
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqldeveloper/sqldeveloper-original.svg" height="45"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/LangChain-1C3C4C?style=for-the-badge&logo=chainlink&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LangGraph-FF6B35?style=for-the-badge&logo=graphql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RAG-7C3AED?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Agentic_AI-5B21B6?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Vector_DB-2563EB?style=for-the-badge"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Anthropic-1E3A5F?style=for-the-badge&logo=anthropic&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Mistral-7B3FE4?style=for-the-badge&logo=mistralai&logoColor=white"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/FAISS-0055FF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Pinecone-4B8B8B?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Chroma-00A86B?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Weaviate-9C27B0?style=for-the-badge"/>
+</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h2 align="center">📊 GitHub Stats</h2>
+
+<p align="center">
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=smhac404&hide_border=true&background=0D1117&stroke=6D28D9&ring=8B5CF6&fire=7C3AED&currStreakNum=C4B5FD&sideNums=C4B5FD&currStreakLabel=8B5CF6&sideLabels=8B5CF6&dates=C4B5FD">
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=smhac404&hide_border=true&background=FAFAFF&stroke=818CF8&ring=6366F1&fire=7C3AED&currStreakNum=4F46E5&sideNums=4F46E5&currStreakLabel=6366F1&sideLabels=6366F1&dates=818CF8">
+    <img width="95%" src="https://streak-stats.demolab.com/?user=smhac404&hide_border=true&background=FAFAFF&stroke=818CF8&ring=6366F1&fire=7C3AED&currStreakNum=4F46E5&sideNums=4F46E5&currStreakLabel=6366F1&sideLabels=6366F1&dates=818CF8">
+  </picture>
+  
+  <br><br>
+  
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=smhac404&bg_color=0D1117&color=8B5CF6&line=6D28D9&point=C4B5FD&hide_border=true&area=true&area_color=6D28D9">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=smhac404&bg_color=FAFAFF&color=6366F1&line=818CF8&point=4F46E5&hide_border=true&area=true&area_color=818CF8">
+    <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=smhac404&bg_color=FAFAFF&color=6366F1&line=818CF8&point=4F46E5&hide_border=true&area=true&area_color=818CF8">
+  </picture>
+</p>
+
+</td>
+
+</tr>
+</table>
+
+<div align="center">
+
+## 🤝 Let's Connect
+
+I enjoy discussing **Generative AI • LLM Applications • RAG Systems • Agentic AI • AI Engineering**
+
+<br>
+
+<a href="https://linkedin.com/in/swastikmohanty">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:swastik845@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://github.com/smhac404">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg">
+  <img width="100%" src="./assets/footer-light.svg">
+</picture>
+
+</div>
