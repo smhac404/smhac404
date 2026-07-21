@@ -40,6 +40,15 @@
     <filter id="footerShadow">
       <feDropShadow dx="0" dy="-4" stdDeviation="10" flood-color="#818CF8" flood-opacity=".06"/>
     </filter>
+
+    <!-- ================================= -->
+    <!-- TEXT GRADIENT -->
+    <!-- ================================= -->
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
   </defs>
 
   <!-- ================================= -->
@@ -100,39 +109,16 @@
   <!-- ================================= -->
   <!-- MAIN MESSAGE -->
   <!-- ================================= -->
-  <text x="800" y="88" text-anchor="middle" font-family="SF Pro Display,Segoe UI,Arial" font-size="26" font-weight="600" fill="url(#textGradient)" filter="url(#glow)">
+  <text x="800" y="100" text-anchor="middle" font-family="SF Pro Display,Segoe UI,Arial" font-size="26" font-weight="600" fill="url(#textGradient)" filter="url(#glow)">
     Thanks for visiting my profile
     <animate attributeName="opacity" values=".75;1;.75" dur="3s" repeatCount="indefinite"/>
   </text>
 
   <!-- ================================= -->
-  <!-- TEXT GRADIENT -->
-  <!-- ================================= -->
-  <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#4F46E5"/>
-    <stop offset="50%" stop-color="#7C3AED"/>
-    <stop offset="100%" stop-color="#6366F1"/>
-  </linearGradient>
-
-  <!-- ================================= -->
-  <!-- DIVIDER -->
-  <!-- ================================= -->
-  <line x1="580" y1="108" x2="1020" y2="108" stroke="#818CF8" stroke-opacity=".12" stroke-width="1.5">
-    <animate attributeName="stroke-opacity" values=".08;.22;.08" dur="4s" repeatCount="indefinite"/>
-  </line>
-
-  <!-- ================================= -->
-  <!-- TECH TAGS -->
-  <!-- ================================= -->
-  <text x="800" y="130" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="16" fill="#818CF8" opacity=".7" letter-spacing="1.5">
-    Generative AI • LLM • RAG • Agentic AI
-  </text>
-
-  <!-- ================================= -->
   <!-- BOTTOM DECORATIVE LINE -->
   <!-- ================================= -->
-  <path d="M600 155 Q800 148 1000 155" stroke="#818CF8" stroke-opacity=".06" stroke-width="1.5" fill="none">
-    <animate attributeName="d" values="M600 155 Q800 148 1000 155;M600 150 Q800 160 1000 150;M600 155 Q800 148 1000 155" dur="8s" repeatCount="indefinite"/>
+  <path d="M600 140 Q800 133 1000 140" stroke="#818CF8" stroke-opacity=".06" stroke-width="1.5" fill="none">
+    <animate attributeName="d" values="M600 140 Q800 133 1000 140;M600 135 Q800 145 1000 135;M600 140 Q800 133 1000 140" dur="8s" repeatCount="indefinite"/>
   </path>
 
   <!-- ================================= -->
